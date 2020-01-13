@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <title>Ejercicio 2</title>
+  <style media="screen" type="text/css">
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+    }
+
+    .main {
+      height: 100%;
+      padding: 5%;
+    }
+
+    /* Banderas */
+    .border-flag {
+      padding: 5px;
+      margin-bottom: 5px;
+      width: 48%;
+      height: 250px;
+      float: left;
+    }
+    .flag {
+      border: black 1px solid;
+      margin-bottom: 5px;
+      width: 440px;
+      height: 230px;
+    }
+
+    /* Colores */
+    .color-red {
+      background: red;
+    }
+    .color-yellow {
+      background: yellow;
+    }
+    .color-green {
+      background: green;
+    }
+    .color-black {
+      background: black;
+    }
+
+    /** Bandera de España */
+    .flag-spain > .box{
+      width: 100%;
+    }
+    .flag-spain .position-1 {
+      height: 25%;
+    }
+    .flag-spain .position-2 {
+      height: 50%;
+    }
+    .flag-spain .position-3 {
+      height: 25%;
+    }
+
+    /** Bandera de Dinamarca */
+    .flag-denmark > .box{
+      width: 100%;
+    }
+    .flag-denmark .position-1 {
+      height: 40%;
+      width: 30%;
+      margin: 0 10% 10.5% 0;
+      float: left;
+    }
+    .flag-denmark .position-2 {
+      height: 40%;
+      width: 60%;
+      margin: 0 0 10.5% 0;
+      float: left;
+    }
+    .flag-denmark .position-3 {
+      height: 40%;
+      width: 30%;
+      margin: 0 10% 0 0;
+      float: left;
+    }
+    .flag-denmark .position-4 {
+      height: 40%;
+      width: 60%;
+      float: left;
+    }
+
+    /** Bandera de Emiratos Arabes */
+    .flag-emirates > .box{
+      width: 100%;
+    }
+    .flag-emirates .position-1 {
+      height: 100%;
+      width: 20%;
+      float: left;
+    }
+    .flag-emirates .position-2 {
+      height: 33.3%;
+      width: 80%;
+      float: left;
+    }
+    .flag-emirates .position-3 {
+      height: 33.3%;
+      width: 80%;
+      float: left;
+    }
+    .flag-emirates .position-4 {
+      height: 33.3%;
+      width: 80%;
+      float: left;
+    }
+
+    /** Bandera de Japon */
+    .flag-japan > .box{
+      width: 100%;
+    }
+    .flag-japan .position-1 {
+      height: 45%;
+      width: 25%;
+      border-radius: 100%;
+      float: left;
+      margin: 15% 15% 15% 35%;
+    }
+
+  </style>
+</head>
+<body>
+<section class="main">
+
+  <section class="border-flag flag-spain">
+    <div class="flag">
+      <div class="box color-red position-1"></div>
+      <div class="box color-yellow position-2"></div>
+      <div class="box color-red position-3"></div>
+    </div>
+    <div class="title"> España </div>
+  </section>
+
+  <section class="border-flag flag-denmark">
+    <div class="flag">
+      <div class="box color-red position-1"></div>
+      <div class="box color-red position-2"></div>
+      <div class="box color-red position-3"></div>
+      <div class="box color-red position-4"></div>
+    </div>
+    <div class="title"> Dinamarca </div>
+  </section>
+
+  <section class="border-flag flag-emirates">
+    <div class="flag">
+      <div class="box color-red position-1"></div>
+      <div class="box color-green position-2"></div>
+      <div class="box position-3"></div>
+      <div class="box color-black position-4"></div>
+    </div>
+    <div class="title"> Emiratos Arabes </div>
+  </section>
+
+  <section class="border-flag flag-japan">
+    <div class="flag">
+      <div class="box color-red position-1"></div>
+    </div>
+    <div class="title"> Japon </div>
+  </section>
+
+</section>
+</body>
+</html>
